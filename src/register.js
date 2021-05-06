@@ -6,10 +6,10 @@ function App() {
   return (
     <div className="content">
       <div className="header">
-        Login to your account
+        Welcome to Sproutpay. 
       </div>
       <div className="app-container">
-        <div className="register-text">Sign In</div>
+        <div className="register-text">Register</div>
         <div className="form">
             <label htmlFor='email'>Email</label>
           <div className="form-group">
@@ -23,8 +23,7 @@ function App() {
           <div className="footer">
             <input type='submit' name='submit' />
           </div>
-        <div className="to-sign-up">Forgot password?</div>
-        <div className="to-sign-up">Don't have an account? <span>Sign Up</span></div>
+        <div className="to-sign-up">Alraedy have an account? <span>Sign In</span></div>
         </div>
       </div>
     </div>

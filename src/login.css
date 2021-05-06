@@ -1,0 +1,68 @@
+* {box-sizing: border-box;
+}
+.header {font-size: 24px;
+         color: rebeccapurple;
+         font-weight: bold;
+         margin: 20px;
+         text-align: center;
+}
+
+.content {display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+}
+
+.app-container {width: 330px;
+                height: 500px;
+                display: flex;
+                flex-direction: column;
+                padding-top: 30px;
+                background-color: rebeccapurple;
+                box-sizing: border-box;
+                border-radius: 10px;
+}
+
+.register-text {color: white;
+                font-weight: bold;
+                font-size: 24px;
+                text-align: center;
+                margin-bottom: 50px;
+}
+
+label {color: white;
+       margin-left: 50px;
+}
+
+input {border: 2px solid white;
+       outline: none;
+       background-color: rebeccapurple;
+       border-radius: 50px;
+       width: 250px;
+       height: 40px;
+       color: white;
+       padding-left: 10px;
+       margin: 15px 0 25px 0;
+}
+
+.footer, .form-group, .to-sign-up {display: flex;
+                                   justify-content: center;
+                                   align-items: center;
+}
+
+.footer input {width: 90px;
+               height: 35px;
+               border-radius: 10px 0;
+               border: none;
+               background-color: white;
+               color: rebeccapurple;
+               margin-bottom:10px;
+}
+
+.to-sign-up {font-size: 12px;
+             color: rgba(255, 255, 255, 0.548);
+             margin: 5px;
+}
+
+.to-sign-up span {color: white;
+}
